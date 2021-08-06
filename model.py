@@ -106,3 +106,5 @@ class res_unimp_large(object):
         pred = L.fc(
             feature, self.num_class, act=None, name="pred_output")
         return pred
+
+
